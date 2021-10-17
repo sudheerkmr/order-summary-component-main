@@ -122,3 +122,27 @@ body {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media screen and (max-width: 400px) {
+    .card {
+        width: 350px;
+    }
+    .order-summary {
+        padding: 30px 25px 20px 25px;
+    }
+    .price-card {
+        width: 300px;
+    }
+    .music-icon {
+        padding: 0 20px;
+    }
+    .plan-info {
+        padding-right: 35px;
+    }
+    .change-button {
+        padding: 20px;
+    }
+    .payment-button {
+        width: 300px;
+    }
+}
