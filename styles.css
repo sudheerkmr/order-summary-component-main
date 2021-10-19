@@ -149,7 +149,7 @@ body {
     color: hsl(228, 45%, 44%); 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 475px) {
     .card {
         width: 350px;
     }
